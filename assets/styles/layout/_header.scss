@@ -1,18 +1,52 @@
 .header {
+  position: relative;
   height: 120px;
 }
 
-.header__menu {
-  width: 1110px;
-  margin: 0 auto;
-}
-
 .menu {
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32.5px;
 }
 
-.icon-menu {
-  height: 100px;
-  width: 50px;
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 80px;
 }
+
+.menu__list-item {
+
+  .link {
+    font-family: 'Montserrat-Bold', sans-serif;
+    @include font($size: 1.6rem, $height: 22px);
+    color: $color-title;
+  }
+}
+
+.menu__button {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-left: -20px;
+}
+
+.menu__button-icon {
+  height: 29px;
+  width: 37px;
+}
+
+.link-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+
+

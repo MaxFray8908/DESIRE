@@ -1,11 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-size: 10px;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'OpenSans-Regular', sans-serif;
   @include font($size: 1.6rem, $height: 27px);
   color: $color-text;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.container {
+  height: 100%;
+  width: 1110px;
+  margin: 0 auto;
 }
 
 h2 {
