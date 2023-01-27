@@ -1,0 +1,18 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'OpenSans-Regular', sans-serif;
+  @include font($size: 1.6rem, $height: 27px);
+  color: $color-text;
+}
+
+h2 {
+  @include font($size: 3.6rem, $height: 51px);
+}
+
+.title {
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: $color-title;
+}

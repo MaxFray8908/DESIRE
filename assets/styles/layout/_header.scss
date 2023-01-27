@@ -1,0 +1,18 @@
+.header {
+  height: 120px;
+}
+
+.header__menu {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-menu {
+  height: 100px;
+  width: 50px;
+}
