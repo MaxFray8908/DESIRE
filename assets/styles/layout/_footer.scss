@@ -1,0 +1,45 @@
+.footer__content {
+  background-color: $color-footer-background-1;
+
+  .container {
+    display: flex;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    color: $color-footer-text;
+  }
+}
+
+.contacts__icon {
+  height: 16px;
+  width: 16px;
+}
+
+.contacts__link {
+  color: $color-title;
+}
+
+.social__list {
+  .link {
+    @include font($size: 1.4rem, $height: 28px);
+  }
+}
+
+.social__icon {
+  height: 18px;
+  max-width: 18px;
+}
+
+.footer__menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.footer__description {
+  height: 110px;
+  background-color: $color-footer-background-2;
+}
